@@ -1,7 +1,7 @@
 const path = require("node:path");
 const fs = require("node:fs");
 const {Client, GatewayIntentBits, Events} = require('discord.js');
-
+const keep_alive = require('./keep_alive.js');
 const {token} = require("./config.json")
 
 
